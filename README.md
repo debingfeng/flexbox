@@ -3,7 +3,7 @@
 容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。
 项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。
 
-## 查看 <a href="index.html">demo</a>
+## 查看 <a href="index.html"  target="_blank">demo</a>
 ## 1、flex-direction属性
 flex-direction属性决定主轴的方向（即项目的排列方向）。
 
