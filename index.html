@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Css3-flexbox by Fengalbean</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Css3-flexbox</h1>
+        <p>flexbox</p>
+
+        <p class="view"><a href="https://github.com/Fengalbean/css3-flexbox">View the Project on GitHub <small>Fengalbean/css3-flexbox</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/Fengalbean/css3-flexbox/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Fengalbean/css3-flexbox/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Fengalbean/css3-flexbox">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="css3-flexbox" class="anchor" href="#css3-flexbox" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>css3-flexbox</h1>
+
+<p>采用Flex布局的元素，称为Flex容器（flex container），简称"容器"。它的所有子元素自动成为容器成员，称为Flex项目（flex item），简称"项目"。
+容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。
+项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。
+<img src="flexbox/flexbox.png"></p>
+
+<h1>
+<a id="1flex-direction属性" class="anchor" href="#1flex-direction%E5%B1%9E%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1、flex-direction属性</h1>
+
+<p>flex-direction属性决定主轴的方向（即项目的排列方向）。</p>
+
+<h1>
+<a id="2flex-wrap属性" class="anchor" href="#2flex-wrap%E5%B1%9E%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2、flex-wrap属性</h1>
+
+<p>默认情况下，项目都排在一条线（又称"轴线"）上。flex-wrap属性定义，如果一条轴线排不下，如何换行。</p>
+
+<h1>
+<a id="3-flex-flow属性" class="anchor" href="#3-flex-flow%E5%B1%9E%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3、 flex-flow属性</h1>
+
+<p>flex-flow属性是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap。</p>
+
+<h1>
+<a id="4justify-content属性" class="anchor" href="#4justify-content%E5%B1%9E%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4、justify-content属性</h1>
+
+<p>justify-content属性定义了项目在主轴上的对齐方式。</p>
+
+<h1>
+<a id="5align-items属性" class="anchor" href="#5align-items%E5%B1%9E%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5、align-items属性</h1>
+
+<p>align-items属性定义项目在交叉轴上如何对齐。</p>
+
+<h1>
+<a id="6order属性属性" class="anchor" href="#6order%E5%B1%9E%E6%80%A7%E5%B1%9E%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>6、order属性属性</h1>
+
+<p>order属性定义项目的排列顺序。数值越小，排列越靠前，默认为0。</p>
+
+<h1>
+<a id="7flex-grow属性" class="anchor" href="#7flex-grow%E5%B1%9E%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>7、flex-grow属性</h1>
+
+<p>flex-grow属性定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。</p>
+
+<h1>
+<a id="8-flex-shrink属性" class="anchor" href="#8-flex-shrink%E5%B1%9E%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>8、 flex-shrink属性</h1>
+
+<p>flex-shrink属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小</p>
+
+<h1>
+<a id="9flex-basis属性" class="anchor" href="#9flex-basis%E5%B1%9E%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>9、flex-basis属性</h1>
+
+<p>flex-basis属性定义了在分配多余空间之前，项目占据的主轴空间（main size）。浏览器根据这个属性，计算主轴是否有多余空间。它的默认值为auto，即项目的本来大小。</p>
+
+<h1>
+<a id="10flex属性" class="anchor" href="#10flex%E5%B1%9E%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>10、flex属性</h1>
+
+<p>flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。</p>
+
+<h1>
+<a id="11-align-self属性" class="anchor" href="#11-align-self%E5%B1%9E%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>11、 align-self属性</h1>
+
+<p>align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Fengalbean">Fengalbean</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
